@@ -254,7 +254,9 @@
   ],
   "judgment": [
     "guilty! On #n# charges. #post_guilty#" ,
-    "not guilty! #post_not_guilty#"
+    "not guilty! #post_not_guilty#",
+    "{adjective}! On #n# charges. #post_guilty#",
+    "{ngram-chain}! On #n# charges."
   ],
   "post_guilty": [
     "Please report back for jail in 15 minutes.",

@@ -25,10 +25,14 @@
     "basicset-chronicler": "^2.0.0",
     "better-know-a-tweet": "^1.0.1",
     "call-next-tick": "^1.1.2",
+    "iscool": "^1.1.17",
     "jsonfile": "^2.2.3",
     "moment": "^2.11.2",
     "post-tweet-chain": "^1.0.0",
+    "probable": "^2.0.0",
     "tracery-grammar": "v21/tracery",
-    "twit": "^1.1.20"
+    "twit": "^1.1.20",
+    "wander-google-ngrams": "^2.5.1",
+    "wordnok": "^3.1.0"
   }
 }
