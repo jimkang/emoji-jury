@@ -1,0 +1,34 @@
+{
+  "name": "emoji-jury",
+  "version": "1.0.0",
+  "description": "Generates a jury of your peers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/emoji-jury.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/emoji-jury/issues"
+  },
+  "homepage": "https://github.com/jimkang/emoji-jury",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "basicset-chronicler": "^2.0.0",
+    "better-know-a-tweet": "^1.0.1",
+    "call-next-tick": "^1.1.2",
+    "jsonfile": "^2.2.3",
+    "moment": "^2.11.2",
+    "post-tweet-chain": "^1.0.0",
+    "tracery-grammar": "v21/tracery",
+    "twit": "^1.1.20"
+  }
+}
