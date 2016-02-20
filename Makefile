@@ -12,6 +12,8 @@ sync:
 restart-remote:
 	$(SSHCMD) "systemctl restart emoji-jury"
 
+update-remote: sync restart-remote
+
 install-service:
 	$(SSHCMD) "chmod +x /var/apps/emoji-jury/jury-responder.js && \
 	chmod 777 -R /var/apps/emoji-jury/data/jury-chronicler.db"
