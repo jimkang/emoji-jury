@@ -1,0 +1,13 @@
+[Unit]
+Description=emoji-jury
+After=network.target
+[Service]
+ExecStart=/var/apps/emoji-jury/jury-responder.js
+Restart=always
+User=app
+Group=app
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/apps/emoji-jury
+[Install]
+WantedBy=multi-user.target
